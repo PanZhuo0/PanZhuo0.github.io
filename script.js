@@ -18,3 +18,16 @@ var typed = new Typed(".mutiple-text",{
     backDelay:1000,
     loop:true
 })
+
+var typed_title = new Typed(".title_content",{
+    strings:[
+        'I am coding',
+        'I am thinking',
+        'I am cutting Video',
+        'I am uploading video'
+    ],
+    typeSpeed:100,
+    backSpeed:50,
+    backDelay:1000,
+    loop:true
+})
